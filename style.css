@@ -1,5 +1,14 @@
 
+body {
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
 
+.page{
+    width: 80%;
+}
 
 .header {
 color:azure;
@@ -9,6 +18,7 @@ height:40px;
 justify-content: space-between;
 align-items: center;
 padding: 15px;
+
  }
 
 ul {
@@ -22,13 +32,67 @@ a {
     color: azure;
 }
 
+.top {
+    background-color: #1F2937;
+    color: white;
+   /* this is for later might need to move to a seperate container box to fit in the blue button and placeholder. TBD
+    display:flex;
+    flex-direction: column; */
 
+}
 
+.web {
+   font-size: 48px; 
+   font-weight: 900;
+}
 
+.middle {
+background-color: white;
+color:black;
+text-align: center;
 
+}
 
+.title {
+font-size: 36px;
+font-weight: 900;
+color: #1f2937;
+margin-bottom: 32px;
+padding-top: 30px;
 
+}
 
+img {
+    width: 100px;
+    height: 100px;
+   
+  }
+  
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 20px;
+    
+}
+
+.info {
+    max-width: 200px;
+    
+}
+
+.text {
+
+}
+
+.quote {
+    background-color: #e5e7eb ;
+}
+
+.bottom {
+background-color: white;
+}
 
 .footer {
 color:azure;
