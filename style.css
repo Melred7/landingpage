@@ -1,0 +1,40 @@
+
+
+
+.header {
+color:azure;
+display: flex;
+background: #1F2937;
+height:40px;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+ }
+
+ul {
+    display:flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+color:azure;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #1F2937;
+height:40px;
+}
